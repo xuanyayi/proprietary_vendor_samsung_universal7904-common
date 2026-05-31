@@ -27,6 +27,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "audio.sec_primary.default",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/audio.sec_primary.default.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/audio.sec_primary.default.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "gralloc.exynos7904",
 	owner: "samsung",
 	strip: {
@@ -160,26 +181,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libacryl.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libegis_fp_normal_sensor_test",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libegis_fp_normal_sensor_test.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -349,26 +350,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgf_in_system_lib",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgf_in_system_lib.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgf_in_system_lib.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libion_exynos",
 	owner: "samsung",
 	strip: {
@@ -400,26 +381,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libprofileparamstorage.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libqfp_sensortest",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libqfp_sensortest.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libqfp_sensortest.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -550,6 +511,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libspeakercalibration",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libspeakercalibration.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libspeakercalibration.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libstagefrighthw",
 	owner: "samsung",
 	strip: {
@@ -570,26 +551,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsynaFpSensorTestNwd",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsynaFpSensorTestNwd.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsynaFpSensorTestNwd.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libwrappergps",
 	owner: "samsung",
 	strip: {
@@ -601,26 +562,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libwrappergps.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libyasalgo",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libyasalgo.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libyasalgo.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -1341,23 +1282,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsec-ril-dsds",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsec-ril-dsds.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsec-ril",
 	owner: "samsung",
 	strip: {
@@ -1493,6 +1417,30 @@ cc_prebuilt_binary {
 	name: "main_abox",
 	owner: "samsung",
 	srcs: ["proprietary/vendor/bin/main_abox"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "secril_config_svc.p205",
+	owner: "samsung",
+	srcs: ["proprietary/vendor/bin/secril_config_svc"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wlbtd",
+	owner: "samsung",
+	srcs: ["proprietary/vendor/bin/wlbtd"],
 	check_elf_files: false,
 	strip: {
 		none: true,

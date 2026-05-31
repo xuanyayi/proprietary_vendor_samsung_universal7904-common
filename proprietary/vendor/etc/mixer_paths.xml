@@ -73,7 +73,6 @@
 
 	<ctl name="ABOX PCM ext VPCMIN ON" value="0" />
 
-	<ctl name="ABOX ERAP info Bypass On" value="0" />
 	<ctl name="ABOX ERAP info DSM On" value="0" />
 	<ctl name="ABOX Forte Media FM Mode" value="0" />
 
@@ -107,22 +106,14 @@
 	<ctl name="AVC Mute Enable" value="1" />
 	<ctl name="MCB2 Chop Mode" value="1" />
 	<ctl name="In Mute HP Current" value="3" />
-	<ctl name="Out Mute HP Current" value="3" />
-
-	<!-- SMA1301 default settings -->
-	<ctl name="Volume slope" value="Off" />
-	<ctl name="Attack level control" value="LVL_0.25FS" />
-	<ctl name="Trimming of over current limit" value="I_1.93A" />
-	<ctl name="Trimming of boost voltage" value="BST_5.5V" />
-	<ctl name="Filtered VDD gain control" value="VDD_2.75V" />
+	<ctl name="Out Mute HP Current" value="3" />	
 
 	<!-- Common control configurations -->
 	<path name="route-playback">
 	</path>
 
 	<path name="route-spkamp-playback">
-		<ctl name="ABOX ERAP info Bypass On" value="1" />
-		<ctl name="ABOX ERAP info DSM On" value="0" />
+		<ctl name="ABOX ERAP info DSM On" value="1" />
 		<ctl name="ABOX NSRC3" value="UAIF3" />
 		<ctl name="ABOX SPUS OUT7" value="SIFS1" />
 		<ctl name="ABOX SIFS1" value="SPUS OUT7" />
@@ -291,8 +282,7 @@
 		<ctl name="AVC Mute Enable" value="1" />
 		<ctl name="In Mute HP Current" value="3" />
 		<ctl name="Out Mute HP Current" value="3" />
-		<ctl name="OVP Tuning Value" value="231" />
-		<ctl name="Detect Threshold" value="188" />
+		<ctl name="OVP Tuning Value" value="247" />
 	</path>
 
 	<path name="media-headphone">
@@ -776,8 +766,7 @@
 		<ctl name="ABOX NSRC1" value="UAIF1" />
 		<ctl name="ABOX Sound Type" value="CALLFWD" />
 	</path>
-
-
+	
 	<!-- Spectro Scenario -->
 	<path name="call_spectro">
 		<ctl name="ABOX UAIF SPK0" value="SIFS0" />
@@ -1644,7 +1633,7 @@
 		<ctl name="ABOX SIFS2" value="SPUS OUT4" />
 		<ctl name="ABOX NSRC0" value="SIFS2" />
 	</path>
-
+	
 	<!-- FM Playback/Recording -->
 	<path name="fm_radio-speaker" >
 		<path name="route-fm" />

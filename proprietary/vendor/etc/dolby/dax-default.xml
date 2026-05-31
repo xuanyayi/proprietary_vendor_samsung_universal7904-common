@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <format_version major="3" minor="6" maintenance="0" />
-  <tool_version major="3" minor="6" maintenance="0" />
+  <format_version major="3" minor="4" maintenance="0" />
+  <tool_version major="3" minor="3" maintenance="0" />
   <preset id="ieq_balanced" type="ieq">
     <data>
       <ieq-bands>
@@ -55,11 +55,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value ="0" />
@@ -78,11 +75,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value ="0" />
@@ -101,11 +95,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value ="0" />
@@ -124,11 +115,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value ="0" />
@@ -147,11 +135,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value ="0" />
@@ -170,11 +155,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value ="0" />
@@ -193,11 +175,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -229,11 +208,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value ="-16" />
@@ -252,11 +228,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="24"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value ="-16" />
@@ -275,11 +248,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="24"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value ="-16" />
@@ -298,11 +268,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="24"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value ="0" />
@@ -321,11 +288,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value ="0" />
@@ -344,11 +308,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value ="-16" />
@@ -367,11 +328,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -403,11 +361,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value ="0" />
@@ -426,11 +381,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value ="0" />
@@ -449,11 +401,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value ="0" />
@@ -472,11 +421,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value ="0" />
@@ -495,11 +441,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value ="0" />
@@ -518,11 +461,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value ="0" />
@@ -541,11 +481,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -577,11 +514,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value ="0" />
@@ -600,11 +534,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value ="0" />
@@ -623,11 +554,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value ="0" />
@@ -646,11 +574,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value ="0" />
@@ -669,11 +594,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value ="0" />
@@ -692,11 +614,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value ="0" />
@@ -715,11 +634,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -751,11 +667,8 @@
         <volume-leveler-out-target value="-208" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value ="0" />
@@ -774,11 +687,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value ="0" />
@@ -797,11 +707,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value ="0" />
@@ -820,11 +727,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value ="0" />
@@ -843,11 +747,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value ="0" />
@@ -866,11 +767,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value ="0" />
@@ -889,11 +787,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -925,11 +820,8 @@
         <volume-leveler-out-target value="-272" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value ="0" />
@@ -948,11 +840,8 @@
         <volume-leveler-out-target value="-272" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value ="0" />
@@ -971,11 +860,8 @@
         <volume-leveler-out-target value="-272" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value ="0" />
@@ -994,11 +880,8 @@
         <volume-leveler-out-target value="-272" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value ="0" />
@@ -1017,11 +900,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <calibration-boost value="0" />
@@ -1040,11 +920,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value ="0" />
@@ -1063,11 +940,8 @@
         <volume-leveler-out-target value="-272" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -1099,11 +973,8 @@
         <volume-leveler-out-target value="-208" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value="0" />
@@ -1122,11 +993,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value="0" />
@@ -1145,11 +1013,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value="0" />
@@ -1168,11 +1033,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value="0" />
@@ -1191,11 +1053,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value="0" />
@@ -1214,11 +1073,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value="0" />
@@ -1237,11 +1093,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -1273,11 +1126,8 @@
         <volume-leveler-out-target value="-208" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="headphone">
         <system-gain value="0" />
@@ -1296,11 +1146,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="bluetooth">
         <system-gain value="0" />
@@ -1319,11 +1166,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="usb">
         <system-gain value="0" />
@@ -1342,11 +1186,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="remote_submix">
         <system-gain value="0" />
@@ -1365,11 +1206,8 @@
         <volume-leveler-out-target value="-320" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="aux_digital">
         <system-gain value="0" />
@@ -1388,11 +1226,8 @@
         <volume-leveler-out-target value="-496" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
       <endpoint_type id="default">
         <system-gain value="0" />
@@ -1411,187 +1246,8 @@
         <volume-leveler-out-target value="-224" />
         <graphic-equalizer-enable value="false" />
         <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
         <bass-enhancer-enable value="false" />
         <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
-      </endpoint_type>
-    </data>
-    <include preset="ieq_balanced" />
-  </profile>
-  <profile id="8" name="SpacialAudio">
-    <data>
-      <ieq-enable value="false" />
-      <ieq-amount value="6" />
-      <mi-dialog-enhancer-steering-enable value="true" />
-      <mi-dv-leveler-steering-enable value="false" />
-      <mi-ieq-steering-enable value="false" />
-      <mi-surround-compressor-steering-enable value="false" />
-      <mi-adaptive-virtualizer-steering-enable value="false" />
-      <volume-modeler-enable value="false" />
-      <reverb-suppression-enable value="false" />
-      <reverb-suppression-amount value="0" />
-      <endpoint_type id="speaker">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="2" />
-        <dialog-enhancer-ducking value="2" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="80" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="0" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
-      </endpoint_type>
-      <endpoint_type id="headphone">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="5" />
-        <dialog-enhancer-ducking value="4" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="58" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="0" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-256" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="52"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-      </endpoint_type>
-      <endpoint_type id="bluetooth">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="5" />
-        <dialog-enhancer-ducking value="4" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="58" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="0" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-256" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="true" />
-        <headtracking-enable value="true" />
-        <headphone-virtualizer-steerer-source-distance value="52"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-      </endpoint_type>
-      <endpoint_type id="usb">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="5" />
-        <dialog-enhancer-ducking value="4" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="58" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="0" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-256" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="52"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-      </endpoint_type>
-      <endpoint_type id="remote_submix">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="0" />
-        <dialog-enhancer-ducking value="0" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="false" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="0" />
-        <volume-leveler-in-target value="-320" />
-        <volume-leveler-out-target value="-320" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
-      </endpoint_type>
-      <endpoint_type id="aux_digital">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="0" />
-        <dialog-enhancer-ducking value="0" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="false" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="0" />
-        <volume-leveler-in-target value="-496" />
-        <volume-leveler-out-target value="-496" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
-      </endpoint_type>
-      <endpoint_type id="default">
-        <system-gain value ="-16" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="true" />
-        <dialog-enhancer-amount value="2" />
-        <dialog-enhancer-ducking value="2" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="5" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="true" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="1" />
       </endpoint_type>
     </data>
     <include preset="ieq_balanced" />
@@ -1617,5 +1273,5 @@
       <regulator-sibilance-suppress-enable value="false" />
     </data>
   </tuning>
-  <authorized_technologies sku_name="DAX3 Android" device="dax3_android" bundle="DAP MOBILE v1.5" />
+  <authorized_technologies sku_name="DAX3 Android" device="dax3_android" bundle="DAP MOBILE v1.1"/>
 </device_data>

@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/samsung/universal7904-common/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
@@ -77,16 +76,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/wifi/mx140_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan.hcf \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/wifi/mx140_wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_t.hcf \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/wifi/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/platform.txt \
-    vendor/samsung/universal7904-common/proprietary/vendor/etc/yas_set.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/yas_set.cfg \
     vendor/samsung/universal7904-common/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/universal7904-common/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
+    vendor/samsung/universal7904-common/proprietary/vendor/firmware/Tfa9872.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/Tfa9872.cnt \
     vendor/samsung/universal7904-common/proprietary/vendor/firmware/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/Tfa9896.cnt \
     vendor/samsung/universal7904-common/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
     vendor/samsung/universal7904-common/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
-    vendor/samsung/universal7904-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin
+    vendor/samsung/universal7904-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
+    vendor/samsung/universal7904-common/proprietary/vendor/firmware/tfadsp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tfadsp.bin
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
+    audio.sec_primary.default \
     gralloc.exynos7904 \
     hwcomposer.exynos7904 \
     libExynosHWCService \
@@ -94,7 +95,6 @@ PRODUCT_PACKAGES += \
     libExynosOMX_Resourcemanager \
     libGrallocWrapper \
     libacryl \
-    libegis_fp_normal_sensor_test \
     libepicoperator \
     libexynosdisplay \
     libexynosgraphicbuffer \
@@ -103,20 +103,17 @@ PRODUCT_PACKAGES += \
     libexynosutils \
     libexynosv4l2 \
     libfloatingfeature \
-    libgf_in_system_lib \
     libion_exynos \
     libprofileparamstorage \
-    libqfp_sensortest \
     libril-samsung \
     libsecaudiocoreutils \
     libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.universal7904 \
     libsemnativecarrierfeature \
+    libspeakercalibration \
     libstagefrighthw \
-    libsynaFpSensorTestNwd \
     libwrappergps \
-    libyasalgo \
     libOMX.Exynos.AVC.Decoder \
     libOMX.Exynos.AVC.Encoder \
     libOMX.Exynos.HEVC.Decoder \
@@ -155,7 +152,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl \
     vendor.samsung.hardware.gnss@2.0-impl \
     libengmode_client \
-    libsec-ril-dsds \
     libsec-ril \
     libvkmanager_vendor \
     vendor.samsung.hardware.gnss@2.0 \
@@ -165,4 +161,6 @@ PRODUCT_PACKAGES += \
     gpsd \
     rild \
     vendor.samsung.hardware.gnss@2.0-service \
-    main_abox
+    main_abox \
+    secril_config_svc.p205 \
+    wlbtd
