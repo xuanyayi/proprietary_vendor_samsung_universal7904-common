@@ -1426,7 +1426,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "secril_config_svc.p205",
+	name: "secril_config_svc.p205_prebuilt",
 	owner: "samsung",
 	srcs: ["proprietary/vendor/bin/secril_config_svc"],
 	check_elf_files: false,
@@ -1448,4 +1448,3 @@ cc_prebuilt_binary {
 	prefer: true,
 	soc_specific: true,
 }
-

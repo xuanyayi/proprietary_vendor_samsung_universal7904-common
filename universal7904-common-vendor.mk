@@ -162,5 +162,5 @@ PRODUCT_PACKAGES += \
     rild \
     vendor.samsung.hardware.gnss@2.0-service \
     main_abox \
-    secril_config_svc.p205 \
+    secril_config_svc \
     wlbtd
