@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
-    vendor/samsung/universal7904-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/universal7904-common/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
@@ -127,12 +126,18 @@ PRODUCT_PACKAGES += \
     libaudioeffectoffload \
     libswdap \
     vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
+    vendor.samsung.hardware.radio@2.0-vendorblob \
+    vendor.samsung.hardware.radio@2.1-vendorblob
+
+ifeq ($(TARGET_ENABLE_CAMERA_BRINGUP),true)
+PRODUCT_PACKAGES += \
     camera.device@3.2-impl.universal7904 \
     camera.device@3.3-impl.universal7904 \
     camera.device@3.4-impl.universal7904 \
-    camera.device@3.5-impl.universal7904 \
+    camera.device@3.5-impl.universal7904
+endif
+
+PRODUCT_PACKAGES += \
     audio.primary.exynos7904 \
     libSamsungPostProcessConvertor \
     lib_SamsungRec_07001 \
@@ -145,8 +150,7 @@ PRODUCT_PACKAGES += \
     libstagefright_omx_vendor \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
-    libwvhidl \
-    libwvdrmengine \
+    libaudioroute.vendor \
     libaudioroute.universal7904 \
     libtinyalsa.universal7904 \
     android.hardware.gnss@2.1-impl \
@@ -157,7 +161,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
     cbd \
-    android.hardware.drm@1.3-service.widevine \
     gpsd \
     rild \
     vendor.samsung.hardware.gnss@2.0-service \

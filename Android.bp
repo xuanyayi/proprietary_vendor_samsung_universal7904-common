@@ -843,7 +843,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.samsung.hardware.radio@2.0",
+	name: "vendor.samsung.hardware.radio@2.0-vendorblob",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -858,12 +858,14 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
+	installable: false,
 	prefer: true,
 	soc_specific: true,
+	stem: "vendor.samsung.hardware.radio@2.0",
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.samsung.hardware.radio@2.1",
+	name: "vendor.samsung.hardware.radio@2.1-vendorblob",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -878,8 +880,10 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
+	installable: false,
 	prefer: true,
 	soc_specific: true,
+	stem: "vendor.samsung.hardware.radio@2.1",
 }
 
 cc_prebuilt_library_shared {
@@ -1156,41 +1160,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwvhidl",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libwvdrmengine",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/mediadrm/libwvdrmengine.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	relative_install_path: "mediadrm",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libaudioroute.universal7904",
 	stem: "libaudioroute",
 	owner: "samsung",
@@ -1358,19 +1327,6 @@ cc_prebuilt_binary {
 		none: true,
 	},
 	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "android.hardware.drm@1.3-service.widevine",
-	owner: "samsung",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
 	soc_specific: true,
 }
 
