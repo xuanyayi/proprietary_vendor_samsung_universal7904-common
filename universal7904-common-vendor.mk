@@ -150,7 +150,6 @@ PRODUCT_PACKAGES += \
     libstagefright_omx_vendor \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
-    libaudioroute.vendor \
     libaudioroute.universal7904 \
     libtinyalsa.universal7904 \
     android.hardware.gnss@2.1-impl \

@@ -464,6 +464,9 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	shared_libs: [
+		"libexpat",
+	],
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -1168,12 +1171,11 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/vndk/libaudioroute.so"],
+			srcs: ["proprietary/vendor/lib/libaudioroute.so"],
 		},
 	},
 	compile_multilib: "32",
 	check_elf_files: false,
-	relative_install_path: "vndk",
 	prefer: true,
 	soc_specific: true,
 }
