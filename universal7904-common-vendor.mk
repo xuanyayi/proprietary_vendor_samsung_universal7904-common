@@ -87,11 +87,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libGLES_mali \
     audio.sec_primary.default \
-    gralloc.exynos7904 \
     hwcomposer.exynos7904 \
     libExynosHWCService \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
     libGrallocWrapper \
     libacryl \
     libepicoperator \
@@ -113,16 +110,6 @@ PRODUCT_PACKAGES += \
     libspeakercalibration \
     libstagefrighthw \
     libwrappergps \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.HEVC.Encoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.WMV.Decoder \
     libaudioeffectoffload \
     libswdap \
     vendor.samsung.hardware.radio.bridge@2.0 \
